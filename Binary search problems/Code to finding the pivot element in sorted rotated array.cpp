@@ -21,11 +21,9 @@ int pivot_element_index(int arr[],int n)
 }
 int main()
     {
-     int n;
-     cout<<"ENTER THE SIZE OF THE ARRAY"<<ENDL;
-     cin>>n;
-     int arr[n];
-     index=pivot_element_index(arr,n);
+    int index,arr[6]={7,9,1,2,3,4};
+     index=pivot_element_index(arr,6);    //CALLING OF THE FUNCTION
+     cout<<"THE PIVOT ELEMENT IS ="<<arr[index]<<endl;
      cout<<"THE INDEX OF THE PIVOT ELEMENT IS ="<<index<<endl;
 
 
